@@ -1,0 +1,20 @@
+/**{
+    border: 1px solid red !important;
+}*/
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0f0f0f;
+    color: #d0e9c6;
+}
+.Row1{
+    background-color: blue;
+}
+.pageLinks{
+    background-color: #b92c28;
+    padding: 1%;
+}
