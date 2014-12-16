@@ -8,13 +8,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #0f0f0f;
-    color: #d0e9c6;
+    /*background-color: #ffffff;*/
+    color: #000000;
+    background-image: url("indexBack.jpg");
 }
 .Row1{
-    background-color: blue;
+    background-color: #373cff;
 }
 .pageLinks{
-    background-color: #b92c28;
+    background-color: #919292;
     padding: 1%;
 }
