@@ -1,51 +1,15 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/mainIndex.css">
-
-    <title>Sulman Baig</title>
-</head>
-<body>
+<?php
+$pageTitle = "Mirza Sulman Baig";
+$section = "home";
+include('inc/header.php');
+?>
+<section>
 <div class="container">
-    <div class="row Row1 text-uppercase">
-        <div class="col-md-12">
-            <h1>Mirza Sulman Baig</h1>
-        </div>
-    </div>
-    <div class="row text-center">
-        <div class="col-md-2 pageLinks">
-            <h5><a href="myCv/cv.html">My CV</a></h5>
-        </div>
-        <div class="col-md-2 pageLinks">
-            <h5>Test Pages</h5>
-        </div>
-        <div class="col-md-2 pageLinks">
-            <h5><a href="http://pk.linkedin.com/in/sulmanbaig">LinkedIn</a></h5>
-        </div>
-        <div class="col-md-2 pageLinks">
-            <h5><a href="https://twitter.com/sulmanweb">Twitter</a></h5>
-        </div>
-        <div class="col-md-2 pageLinks">
-            <h5><a href="https://www.facebook.com/tiredofbeingnumb">FaceBook</a></h5>
-        </div>
-        <div class="col-md-2 pageLinks">
-            <h5>Contact Me</h5>
-        </div>
-    </div>
-    <div class="row text-center">
-        <div class="col-md-12">
-            <h3>Under Construction</h3>
-        </div>
-    </div>
     <div class="row">
         <div class="col-md-4">
             <img src="images/dpMain.jpg" class="img-responsive" alt="Profile Picture">
         </div>
-        <div class="col-md-8">
+        <div class="col-md-8 facebook">
             <div class="row">
                 <div class="col-md-12">
                     <a href="https://www.facebook.com/tiredofbeingnumb" target="_blank">
@@ -80,5 +44,5 @@
         </div>
     </div>
 </div>
-</body>
-</html>
+</section>
+<?php include('inc/footer.php'); ?>
