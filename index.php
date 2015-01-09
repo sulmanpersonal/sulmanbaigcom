@@ -1,13 +1,15 @@
 <?php
 $pageTitle = "Mirza Sulman Baig";
 $section = "home";
-include('inc/header.php');
+include('./inc/header.php');
 ?>
 <section>
 <div class="container">
     <div class="row">
         <div class="col-md-4">
-            <img src="images/dpMain.jpg" class="img-responsive" alt="Profile Picture">
+            <a href = "images/dpMain.jpg">
+                <img src="images/dpMain.jpg" class="img-responsive" alt="Profile Picture">
+            </a>
         </div>
         <div class="col-md-8 facebook">
             <div class="row">
@@ -45,4 +47,7 @@ include('inc/header.php');
     </div>
 </div>
 </section>
-<?php include('inc/footer.php'); ?>
+<?php
+$section = "home";
+include('./inc/footer.php');
+?>

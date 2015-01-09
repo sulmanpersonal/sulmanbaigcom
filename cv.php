@@ -1,16 +1,10 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta http-equiv="X-UA-COMPATIBLE" content="IE=edge">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="styles/cvStyle.css">
-
-    <title>Sulman Baig</title>
-</head>
-<body>
-<div class="container">
+<?php
+$pageTitle = "CV | Sulman Baig";
+$section = "myCv";
+include('./inc/header.php');
+?>
+<section>
+<div class="container cvClass">
     <div class="row topHeader">
         <div class="col-md-9">
             <h1 class="text-uppercase">Mirza Sulman Baig</h1>
@@ -25,7 +19,7 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-md-9 text-justify">
+        <div class="col-md-9 text-justify cvHr">
             <h2 class="text-uppercase">Objective</h2>
             <hr>
             <p>Seeking a research assistant position in well reputed organization or university.</p>
@@ -208,8 +202,16 @@
                 <li>AT89S52</li>
                 <li>Altera Cyclone II FPGA</li>
             </ul>
+            <strong>Downloads:</strong>
+            <ul>
+                <li><a href="resourceDocs/Resume%20of%20Mirza%20Sulman%20Baig.pdf">Download PDF CV here.</a></li>
+                <li><a href="resourceDocs/Resume%20of%20Mirza%20Sulman%20Baig.doc">Download DOC CV here.</a></li>
+            </ul>
         </div>
     </div>
 </div>
-</body>
-</html>
+</section>
+<?php
+$section = "myCv";
+include('./inc/footer.php');
+?>
