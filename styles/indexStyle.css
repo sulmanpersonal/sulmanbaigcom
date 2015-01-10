@@ -104,3 +104,61 @@ cv file styles
     background-color:#000000;
     height: 2px;
 }
+
+/*************************************************************
+**************************************************************
+contact file styles
+**************************************************************
+*************************************************************/
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
+}
+
+.contact-info a {
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
+}
+
+.contact-info li.phone a {
+    background-image: url('../images/icons/phoneIcon.png');
+}
+
+.contact-info li.mail a {
+    background-image: url('../images/icons/mailIcon.png');
+}
+
+.contact-info li.twitter a {
+    background-image: url('../images/icons/twitterIcon.png');
+}
+
+.contact-info li.facebook a {
+    background-image: url('../images/icons/facebookIcon.png');
+}
+
+.contact-info li.github a {
+    background-image: url('../images/icons/githubIcon.png');
+}
+
+.contact-info li.googlePlus a {
+    background-image: url('../images/icons/googlePlusIcon.png');
+}
+
+.contact-info li.linkedIn a {
+    background-image: url('../images/icons/linkedinIcon.png');
+}
+
+.contact-info li.skype a {
+    background-image: url('../images/icons/skypeIcon.png');
+}
+
+.contact-info li.youtube a {
+    background-image: url('../images/icons/youtubeIcon.png');
+}

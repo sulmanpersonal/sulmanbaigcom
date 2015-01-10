@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title><?php echo $pageTitle; ?></title>
+    <link rel="icon" type="image/png" href="/images/icons/favicon.png" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="../js/bootstrap.min.js"></script>
@@ -31,8 +32,8 @@
             <ul class="nav navbar-nav navbar-right">
                 <li class="<?php if($section == "home"){echo "active";} else {echo "";} ?>"><a href="./">Home</a></li>
                 <li class="<?php if($section == "myCv"){echo "active";} else {echo "";} ?>"><a href="/cv.php">My CV</a></li>
-                <li class="<?php if($section == "testPages"){echo "active";} else {echo "";} ?>"><a href="#">Test Pages</a></li>
-                <li class="<?php if($section == "contactMe"){echo "active";} else {echo "";} ?>"><a href="#">Contact Me</a></li>
+<!--                <li class="--><?php //if($section == "testPages"){echo "active";} else {echo "";} ?><!--"><a href="#">Test Pages</a></li>-->
+                <li class="<?php if($section == "contactMe"){echo "active";} else {echo "";} ?>"><a href="/contact.php">Contact Me</a></li>
                 <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
                     <ul class="dropdown-menu" role="menu">
