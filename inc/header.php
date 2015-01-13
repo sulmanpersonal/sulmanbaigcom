@@ -9,10 +9,10 @@
     <link rel="icon" type="image/png" href="/images/icons/favicon.png" />
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="../js/bootstrap.min.js"></script>
+    <script src="../bootstrap/js/bootstrap.min.js"></script>
 
     <link href='http://fonts.googleapis.com/css?family=Ubuntu:700|Merriweather' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="../styles/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="../styles/indexStyle.css">
 </head>
 <body>
@@ -31,8 +31,9 @@
         <div id="navbar" class="navbar-collapse collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li class="<?php if($section == "home"){echo "active";} else {echo "";} ?>"><a href="./">Home</a></li>
+                <li class="<?php if($section == "blog"){echo "active";} else {echo "";} ?>"><a href="/blog">My Blog</a></li>
                 <li class="<?php if($section == "myCv"){echo "active";} else {echo "";} ?>"><a href="/cv.php">My CV</a></li>
-<!--                <li class="--><?php //if($section == "testPages"){echo "active";} else {echo "";} ?><!--"><a href="#">Test Pages</a></li>-->
+                <li class="<?php if($section == "testPages"){echo "active";} else {echo "";} ?>"><a href="/oxwall">Test Pages</a></li>
                 <li class="<?php if($section == "contactMe"){echo "active";} else {echo "";} ?>"><a href="/contact.php">Contact Me</a></li>
                 <!--<li class="dropdown">
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
